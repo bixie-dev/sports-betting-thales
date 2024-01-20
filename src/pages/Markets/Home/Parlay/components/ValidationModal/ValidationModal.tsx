@@ -1,0 +1,163 @@
+import checkmarkAnimationData from 'assets/lotties/green-checkmark.json';
+import crossmarkAnimationData from 'assets/lotties/red-checkmark.json';
+import Modal from 'components/Modal';
+import { ParlayErrorCode } from 'enums/markets';
+import useInterval from 'hooks/useInterval';
+import Lottie, { LottieRefCurrentProps } from 'lottie-react';
+import React, { createRef, CSSProperties, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
+import { useDispatch, useSelector } from 'react-redux';
+import { getParlayError, resetParlayError, getParlaySize } from 'redux/modules/parlay';
+import styled from 'styled-components';
+import { useTheme } from 'styled-components';
+import { FlexDivColumnCentered, FlexDivRowCentered } from 'styles/common';
+import { ThemeInterface } from 'types/ui';
+
+type ValidationModalProps = {
+    onClose: () => void;
+};
+
+const DELAY_ANIMATION_PLAY = 200;
+const ANIMATION_TIME = 1200;
+
+const ValidationModal: React.FC<ValidationModalProps> = ({ onClose }) => {
+    const { t } = useTranslation();
+    const dispatch = useDispatch();
+    const theme: ThemeInterface = useTheme();
+
+    const parlayError = useSelector(getParlayError);
+    const parlaySize = useSelector(getParlaySize);
+
+    const lottiesRef = useRef([...Array(parlaySize + 1)].map(() => createRef<LottieRefCurrentProps>()));
+
+    const crossmarkStart = parlaySize * DELAY_ANIMATION_PLAY;
+    const crossmarkEnd = crossmarkStart + ANIMATION_TIME;
+
+    useInterval(async () => {
+        dispatch(resetParlayError());
+    }, crossmarkEnd);
+
+    const getMaxMatchesAnimation = () => {
+        // crossmark play
+        setTimeout(() => lottiesRef.current[parlaySize]?.current?.play(), crossmarkStart);
+        // crossmark pause
+        setTimeout(() => lottiesRef.current[parlaySize]?.current?.pause(), crossmarkEnd);
+
+        return (
+            <Animation>
+                {[...Array(parlaySize)].map((_elem, index) => {
+                    const checkmarkStart = index * DELAY_ANIMATION_PLAY;
+                    const checkmarkEnd = checkmarkStart + ANIMATION_TIME;
+                    // checkmark play
+                    setTimeout(() => lottiesRef.current[index]?.current?.play(), checkmarkStart);
+                    // checkmark pause
+                    setTimeout(() => lottiesRef.current[index]?.current?.pause(), checkmarkEnd);
+
+                    return (
+                        <Lottie
+                            key={index}
+                            autoplay={false}
+                            animationData={checkmarkAnimationData}
+                            style={checkmarkStyle}
+                            lottieRef={lottiesRef.current[index]}
+                        />
+                    );
+                })}
+                <Lottie
+                    autoplay={false}
+                    animationData={crossmarkAnimationData}
+                    style={checkmarkStyle}
+                    lottieRef={lottiesRef.current[parlaySize]}
+                />
+            </Animation>
+        );
+    };
+
+    return (
+        <Modal title={t('markets.parlay.validation.title')} onClose={() => onClose()} shouldCloseOnOverlayClick={true}>
+            <Container>
+                {parlayError.code === ParlayErrorCode.MAX_MATCHES && (
+                    <>
+                        <ErrorMessage color={theme.status.win}>
+                            {t('markets.parlay.validation.max-teams', { max: parlayError.data })}
+                        </ErrorMessage>
+                        {getMaxMatchesAnimation()}
+                    </>
+                )}
+                {parlayError.code === ParlayErrorCode.SAME_TEAM_TWICE && (
+                    <ErrorMessage>
+                        {t('markets.parlay.validation.team-in-parlay', { team: parlayError.data })}
+                    </ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.MAX_DOUBLE_CHANCES && (
+                    <ErrorMessage>
+                        {t('markets.parlay.validation.max-double-chances', { max: parlayError.data })}
+                    </ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.MAX_COMBINED_MARKETS && (
+                    <ErrorMessage>
+                        {t('markets.parlay.validation.max-combined-markets', { max: parlayError.data })}
+                    </ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.MAX_NUMBER_OF_MARKETS_WITH_COMBINED_MARKETS && (
+                    <ErrorMessage>
+                        {t('markets.parlay.validation.max-number-of-markets-with-combined-markets', {
+                            max: parlayError.data,
+                        })}
+                    </ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.SAME_EVENT_PARTICIPANT && (
+                    <ErrorMessage>
+                        {t('markets.parlay.validation.same-event-participant', {
+                            existingParticipant: parlayError.data.split('/')[0],
+                            addedParticipant: parlayError.data.split('/')[1],
+                        })}
+                    </ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.UNIQUE_TOURNAMENT_PLAYERS && (
+                    <ErrorMessage>
+                        {t('markets.parlay.validation.unique-players', {
+                            existingParticipant: parlayError.data,
+                        })}
+                    </ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.SAME_GAME_OTHER_PLAYER_PROPS_TYPE && (
+                    <ErrorMessage>{t('markets.parlay.validation.same-game-different-player-props')}</ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.ADDING_PLAYER_PROPS_ALREADY_HAVE_POSITION_OF_SAME_MARKET && (
+                    <ErrorMessage>{t('markets.parlay.validation.player-props-and-other-positions')}</ErrorMessage>
+                )}
+                {parlayError.code === ParlayErrorCode.COMBINE_REGULAR_WITH_COMBINED_POSITIONS && (
+                    <ErrorMessage>{t('markets.parlay.validation.already-added-combined-positions')}</ErrorMessage>
+                )}
+            </Container>
+        </Modal>
+    );
+};
+
+const Container = styled(FlexDivColumnCentered)`
+    width: 400px;
+    margin-top: 20px;
+    align-items: center;
+    @media (max-width: 575px) {
+        width: auto;
+    }
+`;
+
+const ErrorMessage = styled.p<{ color?: string }>`
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: ${(props) => (props.color ? props.color : props.theme.textColor.primary)};
+    text-transform: uppercase;
+`;
+
+const Animation = styled(FlexDivRowCentered)``;
+
+const checkmarkStyle: CSSProperties = {
+    width: 50,
+    margin: '0 -5px',
+};
+
+export default React.memo(ValidationModal);

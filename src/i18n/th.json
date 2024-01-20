@@ -1,0 +1,1165 @@
+{
+    "common": {
+        "winner": "ผู้ชนะ",
+        "buy-side": "ซื้อ",
+        "sell-side": "ขาย",
+        "wallet": {
+            "connect-your-wallet": "เชื่อมต่อกระเป๋าเงิน",
+            "switch-wallet": "เปลี่ยนกระเป๋าเงิน",
+            "disconnect-wallet": "ตัดการเชื่อมต่อกระเป๋าเงิน",
+            "wallet-options": "ตัวเลือกกระเป๋าเงิน",
+            "get-usd": "รับ {{amount}}",
+            "approve": "อนุมัติ",
+            "get-usd-progress": "กำลังมิ้นต์ {{amount}}...",
+            "disclaimer": "By connecting a wallet you acknowledge that you have read and understand the Overtime Markets <disclaimer>disclaimer</disclaimer> and agree to its <terms>Terms of Use</terms>.",
+            "wallet-info": "ข้อมูลกระเป๋าเงิน",
+            "approve-parlay": "อนุมัติ ParlayAMM",
+            "approve-sports": "อนุมัติ SportsAMM",
+            "view-less-options": "ดูตัวเลือกน้อยลง",
+            "connect-with-wallet": "เชื่อมต่อกับกระเป๋าสตางค์",
+            "wallet-connect": "เชื่อมต่อกระเป๋าเงิน",
+            "or-connect-with": "หรือเชื่อมต่อกับ",
+            "metamask": "เมตามาสค์",
+            "view-more-options": "ดูตัวเลือกเพิ่มเติม",
+            "connect-wallet-modal-title": "เข้าสู่ระบบ OvertimeMarkets",
+            "please-connect": "กรุณาเชื่อมต่อกระเป๋าเงินเพื่อเริ่มใช้งาน overtime.xyz"
+        },
+        "voucher": {
+            "remaining-amount": "จำนวนเงินคงเหลือ",
+            "overtime-voucher": "บัตรกำนัล Overtime",
+            "voucher": "บัตรกำนัล",
+            "mint-voucher": "มิ้นต์บัตรกำนัล",
+            "modal": {
+                "title": "มิ้นต์บัตรกำนัล Overtime",
+                "description": "<p>การทำงานของบัตรกำนัล Overtime เป็นไปตามที่ระบุไว้ใน  <tip>TIP-76</tip><p/>.",
+                "voucher-amount-label": "มูลค่าบัตรกำนัล",
+                "another-wallet-label": "ส่งบัตรกำนัลไปยังกระเป๋าเงินอื่น",
+                "recipient-wallet-label": "กระเป๋าเงินของผู้รับ",
+                "recipient-wallet-placeholder": "ใส่ที่อยู่ผู้รับ",
+                "button": {
+                    "mint-label": "มิ้นต์",
+                    "mint-progress-label": "กำลังดำเนินการมิ้นต์…",
+                    "confirmation-message": "มิ้นต์บัตรกำนัลสำเร็จแล้ว"
+                }
+            }
+        },
+        "referral": {
+            "link-copied": "คัดลอก referral link !",
+            "button": {
+                "label": "Refer and earn",
+                "disbled-tooltip": "เชื่อมต่อกระเป๋าเพื่อสร้าง referral link.",
+                "enabled-tooltip": "เชิญผู้คนให้มาใช้งาน Overtime เพื่อรับค่าธรรมเนียมจากการเทรดแต่ละครั้งที่พวกเขาทำ"
+            },
+            "modal": {
+                "submit-button": "ส่ง",
+                "copy-button": "คัดลอกลิงค์อ้างอิง",
+                "description": "เลือกรหัสอ้างอิงของคุณ",
+                "title": "รหัสอ้างอิง"
+            },
+            "id-exists": "ID ผู้อ้างอิงมีอยู่แล้ว",
+            "id-create-success": "กำหนด ID ผู้อ้างอิงสำเร็จ",
+            "your-referral-id": "ID ผู้อ้างอิงของคุณ"
+        },
+        "swap": {
+            "title": "รับ USD",
+            "from-label": "จาก",
+            "to-label": "ถึง",
+            "balance-label": "ยอดเงิน: {{amount}}",
+            "swap-label": "แลกเปลี่ยน",
+            "swap-progress-label": "กำลังดำเนินการแลกเปลี่ยน…"
+        },
+        "enable-wallet-access": {
+            "approve-label": "อนุมัติ {{currencyKey}}",
+            "approve-progress-label": "กำลังอนุมัติ {{currencyKey}}...",
+            "approve-all-label": "อนุมัติทั้งหมด",
+            "custom-amount-label": "อนุมัติเป็นจำนวน",
+            "approve": "อนุมัติ",
+            "approve-progress": "กำลังอนุมัติ...",
+            "approve-swap": "อนุมัติการแลกเปลี่ยนเป็น {{currencyKey}}"
+        },
+        "unsupported-network": {
+            "title": "อุ้ย! คุณอยู่ในเครือข่ายที่ไม่ถูกต้อง!",
+            "description": "คุณเลือกเครือข่ายที่ไม่ถูกต้องในกระเป๋าเงินของคุณ หากต้องการดำเนินการต่อ โปรดเปลี่ยนเครือข่ายเป็น Optimism Mainnet",
+            "button": {
+                "optimism": "เปลี่ยนเครือข่ายเป็น Optimism"
+            }
+        },
+        "errors": {
+            "unknown-error-try-again": "เกิดข้อผิดพลาดที่ไม่รู้จักหลังจากที่คุณส่ง กรุณาลองใหม่อีกครั้ง",
+            "unknown-error-try-again-general": "เกิดข้อผิดพลาดที่ไม่รู้จัก กรุณาลองใหม่อีกครั้ง.",
+            "insufficient-balance": "ยอดเงินไม่เพียงพอ",
+            "enter-amount": "ระบุจำนวนเงิน",
+            "enter-price": "ระบุราคา",
+            "insufficient-balance-wallet": "โปรดตรวจสอบให้แน่ใจว่ากระเป๋าเงินของคุณมี {{currencyKey}} เพียงพอ",
+            "user-rejected-tx": "ผู้ใช้ปฏิเสธการทำธุรกรรม",
+            "enter-address": "ใส่ที่อยู่กระเป๋าเงิน",
+            "invalid-address": "ที่อยู่ที่ไม่ถูกต้อง",
+            "batch-transaction-single-failure": "ธุรกรรมถูกปฏิเสธหรือล้มเหลว",
+            "enter-percentage": "Enter percentage",
+            "invalid-percentage-range": "The percentage must be between {{min}} and {{max}}",
+            "single-amm-paused": "AMM หยุดชั่วคราว",
+            "invalid-amount-max": "จำนวนเงินต้องไม่เกิน {{max}}"
+        },
+        "time-remaining": {
+            "ended": "เสร็จสิ้น",
+            "years": "ปี",
+            "year": "ปี",
+            "months": "เดือน",
+            "month": "เดือน",
+            "weeks": "สัปดาห์",
+            "week": "สัปดาห์",
+            "days": "วัน",
+            "day": "วัน",
+            "hours": "ชั่วโมง",
+            "hour": "ชั่วโมง",
+            "minutes": "นาที",
+            "minute": "นาที",
+            "seconds": "วินาที",
+            "second": "วินาที",
+            "days-short": "d",
+            "hours-short": "h",
+            "minutes-short": "m",
+            "seconds-short": "s"
+        },
+        "or": "หรือ",
+        "dapp": "dapp",
+        "launch-dapp": "เริ่มใช้งาน dapp",
+        "cancel": "ยกเลิก",
+        "select-date": "เลือกวันที่...",
+        "tags-placeholder": "ค้นหาแท็ก...",
+        "remove-tag-tooltip": "คลิ๊กเพื่อลบแท็ก",
+        "input-characters-note": "{{entered }} / {{max}}",
+        "view": "ดู",
+        "guidelines": "ไกด์",
+        "built-on": "สร้างขึ้นบน",
+        "odds": {
+            "american-odds": "อัตราต่อรองแบบอเมริกัน",
+            "normalized-implied-odds": "อัตราต่อรองโดยนัยที่ทำให้เป็นมาตรฐาน",
+            "decimal-odds": "อัตราต่อรองทศนิยม"
+        },
+        "days-of-week": {
+            "tue": "อ.",
+            "sun": "อา.",
+            "mon": "จ. ",
+            "fri": "ศ.",
+            "sat": "ส.",
+            "wed": "พ.",
+            "thu": "พฤ."
+        },
+        "pagination": {
+            "page": "หน้า",
+            "rows-per-page": "แถวต่อหน้า:"
+        },
+        "filter": {
+            "date": {
+                "choose": "Choose date"
+            }
+        },
+        "coming-soon": "เร็วๆ นี้!",
+        "h2h-tooltip": "นี่คือตลาดแบบ head-to-head ผู้ชนะจะเป็นผู้ที่จบในอันดับที่ดีกว่าในการแข่งขันหลัก",
+        "mls-tooltip": "MLS markets results are based on regulation results, should they go to overtime the regulation result is the one the market will resolve at.",
+        "top-bet-type-title": "Will {{driver}} finish the {{race}} race in the {{betType}} drivers?",
+        "top3": "TOP 3",
+        "top5": "TOP 5",
+        "top10": "TOP 10",
+        "yes": "YES",
+        "no": "NO",
+        "fifa-tooltip": "ผลการแข่งขันในตลาด FIFA World Cup อิงตามผลการควบคุม หากเกินเวลา ผลการควบคุมจะเป็นผลที่ตลาดจะแก้ไข",
+        "tennis-tooltip": "ในกรณีของการวอล์กโอเวอร์ การแข่งขันจะถือเป็นการยกเลิก ในกรณีที่ออกจากตำแหน่ง/ถูกตัดสิทธิ์ในระหว่างการแข่งขัน จะถือว่าเป็นชัยชนะสำหรับผู้เล่นที่ผ่านเข้าสู่รอบต่อไป",
+        "iihf-tooltip": "ผลลัพธ์ของตลาด IIHF World Championship ขึ้นอยู่กับผลการควบคุม หากพวกเขาทำงานล่วงเวลา ผลการควบคุมจะเป็นผลที่ตลาดจะแก้ไข",
+        "football-tooltip": "ผลลัพธ์ของตลาดขึ้นอยู่กับผลลัพธ์ของกฎข้อบังคับ หากพวกเขาทำงานล่วงเวลา ผลลัพธ์ของกฎข้อบังคับคือผลลัพธ์ของกฎข้อบังคับที่ตลาดจะแก้ไข",
+        "login-with": {
+            "apple": "แอปเปิล",
+            "gmail": "Gmail",
+            "twitch": "ชัก",
+            "discord": "ความไม่ลงรอยกัน",
+            "facebook": "เฟสบุ๊ค",
+            "twitter": "ทวิตเตอร์",
+            "github": "GitHub",
+            "microsoft": "ไมโครซอฟต์",
+            "linkedin": "ลิงค์ดิน",
+            "x": "เอ็กซ์"
+        }
+    },
+    "footer": {
+        "all-rights-reserved": "© {{year}} eXoticV ALL RIGHTS RESERVED.",
+        "tutorial": "Tutorial",
+        "github": "GitHub",
+        "docs": "เอกสาร",
+        "medium": "Medium",
+        "twitter": "Twitter",
+        "discord": "Discord",
+        "disclaimer": "This frontend is hosted decentrally on IPFS (InterPlanetary File System). It serves to visualise the blockchain data and help users interact with the Overtime contracts that belong to Thales DAO. By doing so it helps users understand the risks of using those smart contracts and what the specific interactions entail. The frontend does not facilitate anything else apart from interacting with those contracts in a visually comprehensive way. In doing so, it is no different than the functionality provided by Etherscan or RPCs (Remote Procedure Calls). The frontend itself does not belong to Thales DAO or any individual. It stores no user data and has no dedicated backend or database. All code is uploaded statically directly to the IPFS. Just as the blockchain does no geo-fencing and no KYC, neither can this frontend do so. However, by interacting with Thales DAO contracts, you commit to have read, understood and accepted <disclaimer>Thales DAO’s terms of use</disclaimer> and you take full liability in case you have not adhered to those terms. Thales DAO uses the decentralised sUSD token as collateral for all its transactions. In doing so it inherits all the usage rules from Synthetix DAO with regards to collateral and does not introduce its own.",
+        "instagram": "อินสตาแกรม",
+        "reddit": "เรดดิท"
+    },
+    "market": {
+        "question-label": "คำถาม",
+        "time-remaining-label": "เวลาที่เหลืออยู่",
+        "sport": "กีฬา",
+        "pay-with": "จ่ายด้วย",
+        "status-label": "สถานะ",
+        "tags-label": "แท็ก",
+        "search-placeholder": "ค้นหาเกม",
+        "open-markets-label": "เปิดอยู่",
+        "resolved-markets-label": "สิ้นสุดแล้ว",
+        "grid-view": "กริด",
+        "list-view": "รายการ",
+        "skew-tooltip": "Skew Impact คือจำนวนพรีเมี่ยมที่ถูกเพิ่มในราคาโดยพิจารณาจากความเสี่ยงใน AMM ที่เกิดขึ้น ณ ปัจจุบันจากตลาดนี้",
+        "toast-message": {
+            "transaction-pending": "ธุรกรรมที่รอดำเนินการ",
+            "swap-success": "แลกเปลี่ยนสำเร็จแล้ว {{ currencyKey }}",
+            "approve-success": "อนุมัติเรียบร้อย",
+            "buy-success": "ซื้อสำเร็จ",
+            "sell-success": "ขายได้สำเร็จ",
+            "claim-winnings-success": "รับรางวัลเรียบร้อยแล้ว",
+            "claim-refund-success": "รับเงินคืนเรียบร้อยแล้ว",
+            "withdraw-success": "ถอนสำเร็จ",
+            "get-usd-success": "{{amount}} ถูกมิ้นต์เรียบร้อย",
+            "image-in-clipboard": "รูปภาพอยู่ในคลิปบอร์ด!",
+            "save-image-error": "บันทึกภาพไม่สำเร็จ! ลองอีกครั้ง",
+            "click-open-twitter": "คลิกที่นี่เพื่อเปิด Twitter",
+            "open-twitter": "เปิดทวิตเตอร์...",
+            "metamask-not-supported": "เบราว์เซอร์ Metamask ไม่รองรับการดาวน์โหลดรูปภาพ! โปรดใช้เบราว์เซอร์อื่นเพื่อแบ่งปันภาพ",
+            "ios-not-supported": "ไม่รองรับการแชร์รูปภาพบนอุปกรณ์ iOS หากคุณต้องการแชร์รูปภาพ โปรดใช้เวอร์ชันเดสก์ท็อป",
+            "save-image-cancel": "ยกเลิกการบันทึกภาพแล้ว!",
+            "save-image": "บันทึกภาพไปยังคลิปบอร์ด โปรดรอ...",
+            "download-image": "กำลังดาวน์โหลดรูปภาพ โปรดรอ..."
+        },
+        "filter-label": {
+            "global": {
+                "allmarkets": "ตลาดทั้งหมด",
+                "openmarkets": "เปิด",
+                "resolvedmarkets": "ตลาดที่สิ้นสุดไปแล้ว",
+                "yourpositions": "โพสิชั่นของคุณ",
+                "claim": "สามารถรับได้",
+                "history": "ธุระกรรมของคุณ",
+                "canceled": "ถูกยกเลิก",
+                "archivedmarkets": "ตลาดที่ถูกซ่อน",
+                "tooltip": "ตลาดสิ้นสุดมามากกว่า 7 วันแล้ว",
+                "pendingmarkets": "กำลังดำเนินการ"
+            },
+            "sport": {
+                "all": "กีฬาทั้งหมด",
+                "basketball": "บาสเกตบอล",
+                "soccer": "ฟุตบอล",
+                "hockey": "ฮอกกี้",
+                "tennis": "เทนนิส",
+                "football": "อเมริกันฟุตบอล",
+                "baseball": "เบสบอล",
+                "formula1": "Formula 1",
+                "motogp": "MotoGP",
+                "soon": "กีฬาอื่น ๆ เร็ว ๆ นี้!",
+                "motosport": "มอเตอร์สปอร์ต",
+                "favourites": "รายการโปรด",
+                "esports": "อีสปอร์ต",
+                "cricket": "คริกเก็ต",
+                "mma": "ดกีฬาต่อสู้",
+                "boxing": "มวย",
+                "golf": "กอล์ฟ"
+            },
+            "datepicker": {
+                "games": "{{numberOfGames}} เกม"
+            },
+            "all": "ทั้งหมด",
+            "mobile-tags": {
+                "search": "ค้นหา"
+            },
+            "show-active": "แสดงเฉพาะกีฬาที่ใช้งานอยู่"
+        },
+        "back-to-markets": "กลับไปที่ตลาด",
+        "back-to-market": "กลับไปที่ตลาด",
+        "no-markets-found": "ไม่พบตลาดใดๆ",
+        "view-all-markets": "ดูตลาดทั้งหมด",
+        "table": {
+            "title": "กิจกรรมล่าสุด",
+            "date-time-col": "วันที่ | เวลา",
+            "type-col": "ชนิด",
+            "position-col": "โพสิชั่น",
+            "amount-col": "จำนวน",
+            "paid-col": "จ่าย",
+            "tx-status-col": "สถานะ tx",
+            "type": {
+                "bid": "ประมูล",
+                "withdrawal": "ถอน",
+                "changePosition": "เปลี่ยนโพสิชั่น",
+                "claim": "รับ",
+                "buy": "ซื้อ",
+                "sell": "ขาย"
+            },
+            "no-results": "ไม่มีธุรกรรมที่เกี่ยวข้องกับตลาดนี้",
+            "no-results-for-wallet": "ไม่มีธุรกรรมที่เกี่ยวข้องกับกระเป๋าเงินนี้",
+            "game-col": "เกม",
+            "usd-value-col": "มูลค่า",
+            "result-col": "ผลลัพธ์",
+            "single-title": "กิจกรรมเดี่ยวล่าสุด",
+            "parlay-title": "กิจกรรมพาร์เลย์ล่าสุด"
+        },
+        "tooltip": {
+            "amount-exceeded": "จำนวนเงินเกินจำนวนที่มีอยู่ใน AMM",
+            "minimal-amount": "จำนวนขั้นต่ำคือ1",
+            "no-funds": "จำนวนเงินขั้นต่ำคือ1"
+        },
+        "match-time": "เวลาการแข่งขัน",
+        "race-starts": "เริ่มการแข่งขัน",
+        "back": "กลับ",
+        "apply-filters": "ใช้ตัวกรอง",
+        "incentivized-market": "ตลาดที่มีแรงจูงใจ",
+        "number-of-rounds": "จำนวนรอบทั้งหมด"
+    },
+    "markets": {
+        "market-card": {
+            "starts": "เริ่ม",
+            "claimable": "สามารถรับได้",
+            "finished": "เสร็จเรียบร้อย",
+            "result": "ผล",
+            "started": "เริ่มแล้ว",
+            "canceled": "ถูกยกเลิกแล้ว",
+            "pending-resolution": "อยู่ระหว่างดำเนินการหาข้อยุติ",
+            "claim": "รับ",
+            "coming-soon": "เร็วๆ นี้",
+            "vs": "VS",
+            "draw": "เสมอ",
+            "paused": "หยุดชั่วคราว",
+            "pending": "Pending",
+            "no-liquidity": "No liquidity",
+            "bet-type": {
+                "winner": "Winner",
+                "spread": "Handicap",
+                "total": "Total",
+                "double-chance": "Double chance",
+                "combined-positions": "ตำแหน่งรวมกัน",
+                "strikeouts": "ขีดฆ่า",
+                "receiving yards": "ระยะรับ",
+                "passing touchdowns": "การผ่านทัชดาวน์",
+                "passing yards": "ระยะที่ผ่าน",
+                "home runs": "โฮมรัน",
+                "rushing yards": "วิ่งหลา",
+                "scoring touchdown": "ใครจะเป็นผู้ทำทัชดาวน์ในเกม?",
+                "field goals made": "ทำประตูในสนามได้",
+                "pitcher hits allowed": "อนุญาตให้ตีเหยือกได้",
+                "points": "คะแนน",
+                "shots": "ช็อต",
+                "goals": "ใครจะเป็นผู้ทำประตูในเกม?",
+                "hits recorded": "บันทึกการเข้าชมแล้ว",
+                "assists": "ช่วยเหลือ",
+                "rebounds": "รีบาวด์",
+                "double double": "ดับเบิ้ลดับเบิ้ล",
+                "triple double": "ทริปเปิ้ล-ดับเบิ้ล",
+                "receptions": "แผนกต้อนรับ"
+            },
+            "odd-tooltip": {
+                "scoring": {
+                    "goals": "goals",
+                    "points": "points",
+                    "sets": "ชุด",
+                    "rounds": "รอบ"
+                },
+                "match-resolve": {
+                    "regular": "in regular time",
+                    "overtime": "including possible overtime"
+                },
+                "winner": "{{team}} will win the match {{matchResolve}}.",
+                "draw": "The match will end in a draw {{matchResolve}}.",
+                "total": {
+                    "over": "The total number of {{scoring}} in the match {{matchResolve}} will be more than {{total}}.",
+                    "under": "The total number of {{scoring}} in the match {{matchResolve}} will be less than {{total}}."
+                },
+                "spread": {
+                    "minus": "{{team}} will win the match with a difference of more than {{spread}} {{scoring}} {{matchResolve}}.",
+                    "plus": "{{team}} will win the match, or lose by less than {{spread}} {{scoring}} {{matchResolve}}."
+                },
+                "double-chance": {
+                    "12": "{{team}} or {{team2}} will win the match {{matchResolve}}.",
+                    "1x2": "{{team}} will win the match or the match will end in a draw {{matchResolve}}."
+                },
+                "bonus": "{{bonus}} added bonus on win!",
+                "and": "และ",
+                "race-winner": "{{team}} จะชนะการแข่งขัน {{matchResolve}}",
+                "tournament-winner": "{{team}} จะชนะการแข่งขัน {{matchResolve}}",
+                "player-props": {
+                    "home-runs-over": "{{team}} จะมีโฮมรันมากกว่า {{scoring}}",
+                    "passing-yards-over": "{{team}} จะมีระยะส่งบอลมากกว่า {{scoring}}",
+                    "strikeouts-over": "{{team}} จะมีขีดฆ่ามากกว่า {{scoring}}",
+                    "strikeouts-under": "{{team}} จะมีขีดฆ่าน้อยกว่า {{scoring}}",
+                    "home-runs-under": "{{team}} จะมีโฮมรันน้อยกว่า {{scoring}}",
+                    "passing-touchdowns-over": "{{team}} จะมีการจ่ายทัชดาวน์มากกว่า {{scoring}}",
+                    "rushing-yards-over": "{{team}} จะมีระยะการวิ่งมากกว่า {{scoring}}",
+                    "passing-touchdowns-under": "{{team}} จะมีการส่งทัชดาวน์น้อยกว่า {{scoring}}",
+                    "receiving-yards-under": "{{team}} จะมีระยะรับน้อยกว่า {{scoring}}",
+                    "receiving-yards-over": "{{team}} จะมีระยะรับมากกว่า {{scoring}}",
+                    "rushing-yards-under": "{{team}} จะมีระยะวิ่งน้อยกว่า {{scoring}}",
+                    "passing-yards-under": "{{team}} จะมีระยะส่งบอลน้อยกว่า {{scoring}}",
+                    "touchdowns": "{{team}} จะทำคะแนนทัชดาวน์ในเกม",
+                    "field-goals-made-under": "{{team}} จะมีการยิงประตูน้อยกว่า {{scoring}}",
+                    "field-goals-made-over": "{{team}} จะมีการยิงประตูมากกว่า {{scoring}}",
+                    "info": {
+                        "scoring touchdown": "การรับ การวิ่ง การเตะเตะกลับ ทัชดาวน์การป้องกันและการสกัดกั้นจะถูกนับรวมในผลการแข่งขัน"
+                    },
+                    "pitcher-hits-allowed-under": "{{team}} จะมีโอกาสโจมตีน้อยกว่า {{scoring}}",
+                    "pitcher-hits-allowed-over": "{{team}} จะได้รับอนุญาตให้โจมตีมากกว่า {{scoring}}",
+                    "points-under": "{{team}} จะมีแต้มน้อยกว่า {{scoring}}",
+                    "shots-under": "{{team}} จะมีโอกาสยิงน้อยกว่า {{scoring}}",
+                    "goals": "{{team}} จะทำประตูในเกม",
+                    "shots-over": "{{team}} จะมีโอกาสยิงมากกว่า {{scoring}}",
+                    "points-over": "{{team}} จะมีแต้มมากกว่า {{scoring}}",
+                    "hits-recorded-over": "{{team}} จะมีการบันทึกการเข้าชมมากกว่า {{scoring}}",
+                    "hits-recorded-under": "{{team}} จะมีการบันทึกการเข้าชมน้อยกว่า {{scoring}}",
+                    "rebounds-over": "{{team}} จะมีการรีบาวด์มากกว่า {{scoring}}",
+                    "assists-over": "{{team}} จะมีแอสซิสต์มากกว่า {{scoring}}",
+                    "assists-under": "{{team}} จะมีแอสซิสต์น้อยกว่า {{scoring}}",
+                    "rebounds-under": "{{team}} จะมีการรีบาวด์น้อยกว่า {{scoring}}",
+                    "double-double-yes": "{{team}} จะทำแต้มดับเบิ้ล-ดับเบิ้ล",
+                    "triple-double-yes": "{{team}} จะทำแต้มทริปเปิล-ดับเบิ้ล",
+                    "triple-double-no": "{{team}} จะไม่ทำแต้มทริปเปิล-ดับเบิ้ล",
+                    "double-double-no": "{{team}} จะไม่ทำคะแนนดับเบิ้ล-ดับเบิ้ล",
+                    "receptions-under": "{{team}} จะมีการรับน้อยกว่า {{scoring}}",
+                    "receptions-over": "{{team}} จะมีการรับมากกว่า {{scoring}}"
+                }
+            },
+            "starts-in": "เริ่มเข้า",
+            "period": "ระยะเวลา",
+            "half": "ครึ่ง",
+            "half-time": "ครึ่งแรก",
+            "quarter": "หนึ่งในสี่",
+            "round": "กลม",
+            "inning": "โอกาส",
+            "total-markets": "Total markets",
+            "race-winner": "ผู้ชนะ",
+            "no-win": "ไม่ชนะ",
+            "player-props": "อุปกรณ์ประกอบฉากของผู้เล่น",
+            "see-more-markets": "ดูตลาดอุปกรณ์ประกอบฉากของผู้เล่น",
+            "see-more-markets-mobile": "อุปกรณ์ประกอบฉากของผู้เล่น",
+            "resolved": "แก้ไขแล้ว"
+        },
+        "market-details": {
+            "price": "ราคา",
+            "liquidity": "สภาพคล่อง",
+            "usd-amount": "จำนวนเงิน USD",
+            "positions-amount": "จำนวนโพสิชั่น",
+            "amount-to-sell": "จำนวนเงินที่จะขาย",
+            "total-to-receive": "จำนวนที่จะได้รับทั้งหมด",
+            "potential-profit": "กำไรที่อาจเกิดขึ้น",
+            "amount-claimable": "จำนวนเงินที่สามารถรับได้",
+            "claim-back": "รับคืน",
+            "wallet-info": {
+                "title": "ในกระเป๋าเงิน"
+            },
+            "skew": "Skew",
+            "max": "Max",
+            "discount": "การลดราคา",
+            "amount-to-buy": "จำนวนเงินที่จะซื้อ",
+            "available": "มีอยู่",
+            "positions": "ตำแหน่ง",
+            "odds": "อัตราต่อรอง"
+        },
+        "zero-odds-tooltip": "Sports AMM จะเสนอสภาพคล่องในช่วงราคา $0.05 ถึง $0.95 เท่านั้น หมายความว่าหากอัตราต่อรองสำหรับโพสิชั่นนั้นน้อยกว่า 5% หรือมากกว่า 95% โพสิชั่นนั้นจะไม่มีสภาพคล่อง",
+        "discounted-per": "ลดราคาตาม",
+        "parlay": {
+            "validation": {
+                "title": "การตรวจสอบความถูกต้องของพาร์เลย์",
+                "amount-exceeded": "จำนวนเงินเกินจำนวนที่มีอยู่ใน AMM",
+                "min-amount": "จำนวนเงินขั้นต่ำคือ {{min}}",
+                "availability": "ความพร้อมใช้งานต่ำสำหรับตำแหน่งทางการตลาด",
+                "no-funds": "โปรดตรวจสอบให้แน่ใจว่ากระเป๋าเงินของคุณมีเงินเพียงพอ",
+                "risk-per-comb": "เกินความเสี่ยงต่อชุดค่าผสม",
+                "not-supported": "ไม่รองรับข้อผิดพลาดในการตรวจสอบความถูกต้อง {{error}}",
+                "single-min-amount": "จำนวนเงินขั้นต่ำคือ {{min}}",
+                "same-team": "ทีมเดียวกันไม่สามารถอยู่ในพาร์เลย์ได้มากกว่าหนึ่งครั้ง",
+                "team-in-parlay": "{{team}} อยู่ในพาร์เลย์แล้ว ไม่สามารถเพิ่มทีมเดียวกันในพาร์เลย์ได้มากกว่าหนึ่งครั้ง",
+                "max-double-chances": "The maximum number of double chance markets in Parlay is {{max}}.",
+                "max-profit": "กำไรที่รองรับสูงสุดคือ {{max}}",
+                "max-teams": "สูงสุด {{max}} ตลาดใน Parlay",
+                "no-funds-multi-collateral": "โปรดตรวจสอบให้แน่ใจว่ากระเป๋าเงินของคุณมีเงินเพียงพอ (เพิ่มขึ้น {{percentage}}% ของจำนวนเงินที่ซื้อเข้า)",
+                "max-number-of-markets-with-combined-markets": "จำนวนตลาดสูงสุดใน Parlay คือ {{max}} ตลาดรวมเดียวนับเป็นสองตลาดปกติ",
+                "max-combined-markets": "จำนวนตลาดรวมสูงสุดในพาร์เลย์คือ {{max}}",
+                "amm-contract-paused": "AMM พาร์เลย์หยุดชั่วคราว",
+                "unique-players": "ไม่สามารถเพิ่มผู้เข้าร่วมคนเดียวกันสองครั้งในพาร์เลย์ {{existingParticipant}} อยู่ในพาร์เลย์แล้ว",
+                "same-event-participant": "รองรับผู้เข้าร่วมเพียงหนึ่งคนต่อเหตุการณ์ ไม่สามารถเพิ่ม {{addedParticipant}} ได้ เนื่องจาก {{existingParticipant}} อยู่ใน Parlay แล้ว",
+                "already-added-combined-positions": "ไม่สามารถรวมตำแหน่งจากตลาดเดียวกันกับตำแหน่งรวมได้",
+                "same-game-different-player-props": "ไม่รองรับการรวมอุปกรณ์ประกอบฉากของผู้เล่นประเภทต่างๆ",
+                "player-props-and-other-positions": "ไม่รองรับการรวมตำแหน่งอุปกรณ์ประกอบฉากของผู้เล่นกับตำแหน่งอื่นจากตลาดเดียวกัน"
+            },
+            "skew": "ลาด",
+            "payout": "การจ่ายเงิน",
+            "parlay-fee": "ค่าพาร์เลย์",
+            "empty-description": "เพิ่มตำแหน่ง เลือกตลาด และทำการเลือกของคุณ",
+            "safebox-fee": "ค่าธรรมเนียมตู้เซฟ",
+            "positions": "ตำแหน่ง",
+            "pay-with": "ชำระเงินด้วย",
+            "total-quote": "ใบเสนอราคาทั้งหมด",
+            "potential-profit": "กำไรที่อาจเกิดขึ้น",
+            "available": "มีอยู่",
+            "empty-title": "ไม่มีตำแหน่ง",
+            "clear": "ลบทั้งหมด",
+            "info": {
+                "min-quote": "รองรับ TOTAL QUOTE ที่น้อยที่สุดคือ {{value}}",
+                "max-quote": "รองรับ TOTAL QUOTE สูงสุดคือ {{value}}"
+            },
+            "show-parlay": "โชว์พาร์เลย์",
+            "share-ticket": {
+                "options": {
+                    "title": "ตัวเลือกการแสดงผล",
+                    "view-details": "รายละเอียด",
+                    "usd-amount": "จำนวนเงิน USD",
+                    "view-simple": "เรียบง่าย"
+                },
+                "share": "แบ่งปัน",
+                "potential-payout": "การจ่ายเงินที่อาจเกิดขึ้น",
+                "header": "เว็บ 3 ตลาดกีฬาบน",
+                "loser": "ผู้แพ้",
+                "parlay": "พาร์เลย์",
+                "total-quote": "ใบเสนอราคาทั้งหมด",
+                "referral": "ลิงค์อ้างอิง",
+                "winner": "ผู้ชนะ",
+                "positions": "จำนวนตำแหน่ง"
+            },
+            "buy-in": "ซื้อใน",
+            "total-bonus": "โบนัสรวม",
+            "toggle-parlay": {
+                "multi-single": "เดี่ยว",
+                "parlay": "พาร์เลย์"
+            },
+            "total-to-pay": "ค่าใช้จ่ายทั้งหมด",
+            "in-wallet": "ในกระเป๋าสตางค์",
+            "pay-with-voucher": "ชำระเงินด้วยบัตรกำนัล",
+            "gas-tooltip": "ค่าธรรมเนียมก๊าซปัจจุบันที่ blockchain ต้องการเพื่อชำระธุรกรรม",
+            "total-gas": "ค่าน้ำมัน(โดยประมาณ)"
+        },
+        "nav-menu": {
+            "items": {
+                "history": "ประวัติศาสตร์",
+                "markets": "ตลาด",
+                "sports-trivia": "เรื่องไม่สำคัญกีฬา",
+                "become-affiliate": "ร่วมเป็นพันธมิตร",
+                "profile": "ประวัติโดยย่อ",
+                "leaderboard": "ลีดเดอร์บอร์ด",
+                "onboarding-wizard": "วิซาร์ดการเริ่มต้นใช้งาน",
+                "fee-rebates": "ส่วนลดค่าธรรมเนียม",
+                "fifa-campaign": "แคมเปญ Zebro FIFA",
+                "vaults": "ห้องใต้ดิน",
+                "liquidity-pool": "ให้สภาพคล่อง"
+            },
+            "buttons": {
+                "switch": "สวิตช์",
+                "disconnect": "ตัดการเชื่อมต่อ"
+            },
+            "labels": {
+                "language": "ภาษา",
+                "get-started": "เริ่มต้น",
+                "march-madness": "มาร์ชแมดเนส"
+            }
+        },
+        "incentivized-tooltip": "Triple Thrill: EPL, NFL, and NBA Rewards. A whopping total of 90k OP, 90k ARB, and 180k THALES will be distributed across the three leagues, with each league having its own dedicated 30k OP or ARB + 30k THALES bucket per chain. Check more details <detailsLink>here</detailsLink>.",
+        "incentivized-markets": "ตลาดที่สร้างแรงจูงใจ",
+        "incentivized-tooltip-tennis": "วิมเบิลดันจะได้รับแรงจูงใจ เนื่องจากทัวร์นาเมนต์จะเริ่มในวันที่ 3 กรกฎาคม ตลาดจะได้รับการกระตุ้นด้วย {{rewards}} จนกว่าจะสิ้นสุดทัวร์นาเมนต์ในวันที่ 16 กรกฎาคม รางวัลจะกระจายตามปริมาณของคุณที่ขับเคลื่อนผ่านตลาดเหล่านี้ คุณสามารถติดตามการจัดสรรรางวัลได้ที่ <detailsLink>Dune Dashboard</detailsLink>",
+        "incentivized-tooltip-nfl-playoffs": "ยอดรวมจำนวน {{rewards}} จะถูกแจกจ่ายในระหว่างรอบตัดเชือก NFL ตรวจสอบรายละเอียดเพิ่มเติม <detailsLink>ที่นี่</detailsLink>"
+    },
+    "rewards": {
+        "header": "รางวัล",
+        "search-placeholder": "ค้นหาที่อยู่กระเป๋าเงิน",
+        "description": "<0><0>8,000 OP</0> และ <0>8,000 Thales</0> จะถูกแจกจ่ายทุกสองสัปดาห์อย่างต่อเนื่องตามที่ระบุไว้ใน TIP-96 เพื่อเป็นการชดเชยค่าธรรมเนียมที่จ่ายให้กับ safebox contracts.</0> <0>ลีดเดอร์บอร์ดจะคำนวณรางวัลเป็นเงินคืน 90% ของค่าธรรมเนียม SafeBox ซึ่งเท่ากับ 3% ของยอดรวมที่จ่ายในสกุลเงิน sUSD</0> มูลค่า $ ของ OP และ THALES จะถูกคำนวณโดยใช้ twap 7 วันเมื่อเริ่มต้นรอบ หากเมื่อสิ้นสุดระยะเวลาสองสัปดาห์ การคืนเงินทั้งหมดจบลงที่มากกว่ามูลค่า twap เริ่มต้นของโทเค็น OP และ THALES การคืนเงินจะลดลงตามสัดส่วนสำหรับเทรดเดอร์ทุกราย",
+        "total-negative-pnl": "สูญเสียรวม",
+        "op-rewards-banner-message": "การแจกรางวัล OP ได้เริ่มขึ้นแล้ว ตรวจสอบว่าคุณจะสามารถรับ OP ได้อย่างไรที่ <bold>หน้ารางวัล OP</bold>",
+        "table": {
+            "wallet-address": "หมายเลขกระเป๋าเงิน",
+            "pnl": "สูญเสีย",
+            "percentage": "เปอร์เซ็นต์",
+            "reward-amount": "รางวัล",
+            "no-data-available": "ไม่พบข้อมูล",
+            "rebates": "ส่วนลด",
+            "safebox": "ค่าธรรมเนียม SafeBox",
+            "volume": "ปริมาณ",
+            "percent": "เปอร์เซ็นต์",
+            "rank": "Rank"
+        },
+        "your-score": "คะแนนของคุณ",
+        "twap": "หนึ่งสัปดาห์ TWAP",
+        "total-global-rebates": "รวมเงินคืนที่ต้องจ่าย",
+        "parlay-link": "<div>สำหรับการแข่งขันพาร์เลย์ OP ประจำเดือน<parlayLink> คลิกที่นี่</ parlayLink> .</div>"
+    },
+    "quiz": {
+        "title": "การแข่งขันเกร็ดความรู้ด้านกีฬา",
+        "start-quiz-description": "<p>Hey sports fans! Ready to test your knowledge and beat the field?</p><p>Overtime has launched a sports trivia competition. The trivia is available to everyone to test their knowledge and compete.</p><p>Connect your wallet and enter your Twitter handle to start the trivia! For any questions please join our <discord>Discord</discord>.</p>",
+        "twitter-handle-label": "ชื่อบัญชี Twitter",
+        "twitter-handle-placeholder": "ระบุชื่อบัญชี Twitter",
+        "twitter-handle-validation": "ชื่อบัญชี Twitter ไม่ถูกต้อง โปรดลองใหม่อีกครั้ง",
+        "discord-label": "Discord ID (optional)",
+        "discord-placeholder": "ระบุ Discord ID",
+        "current-question-label": "คำถามปัจจุบัน: {{currentQuestion}}/{{numberOfQuestions}}",
+        "time-reamining-label": "เวลาที่เหลืออยู่: <0/>",
+        "question-weight-label": "น้ำหนักคำถาม: {{points}}",
+        "point-label": "คะแนน",
+        "points-label": "คะแนน",
+        "quiz-finished-label": "สิ้นสุดการแข่งขันตอบคำถาม!",
+        "your-score-label": "คะแนนของคุณ: {{score}}/{{max}} คะแนน",
+        "button": {
+            "start-quiz-label": "เริ่มแข่งขันตอบคำถาม",
+            "next-question-label": "คำถามถัดไป",
+            "previous-question-label": "คำถามก่อนหน้า",
+            "finish-quiz-label": "สิ้นสุดการตอบคำถาม",
+            "try-again-label": "ลองใหม่อีกครั้ง",
+            "see-leaderboard-label": "ดู leaderboard"
+        },
+        "leaderboard": {
+            "title": "Trivia Leaderboard",
+            "description": "<p>This is the trivia leaderboard where you can see how are you faring against the competition.</p><p>You can take the trivia as many times as you like <sportsTrivia>here</sportsTrivia>.</p>",
+            "back-to-quiz": "กลับไปที่การทดสอบ",
+            "search-placeholder": "ค้นหา...",
+            "table": {
+                "rank-col": "อันดับ",
+                "wallet-address-col": "หมายเลขกระเป๋าเงิน",
+                "twitter-col": "Twitter",
+                "points-col": "คะแนน",
+                "time-col": "เวลา",
+                "rewards-col": "รางวัล",
+                "no-data-available": "ไม่พบข้อมูล"
+            },
+            "period-end-label": "การแข่งขันรอบนี้จะสิ้นสุดใน",
+            "period-ended-label": "การแข่งขันสิ้นสุด",
+            "week-label": "สัปดาห์ที่",
+            "overtime-voucher": "บัตรกำนัล Overtime",
+            "all-time-leaderboard-label": "All time leaderboard"
+        },
+        "help-us-improve-label": "ช่วยเราพัฒนา",
+        "help-us-improve-tooltip": "ช่วยเราพัฒนาการแข่งขันการตอบคำถามด้านกีฬาโดยการช่วยเราเพิ่มคำถามลงใน database",
+        "finish-messages": {
+            "your-best-result": "คะแนนที่ดีที่สุดของคุณ: {{points}} {{pointsLabel}}",
+            "rank-info": "ด้วย {{points}} {{pointsLabel}} คุณอยู่อันดับที่ {{rank}} จากผู้เข้าแข่งขันทั้งหมด {{totalParticipants}} คน"
+        },
+        "difficulty-label": "ระดับความยาก",
+        "difficulty": {
+            "1": "Trivial",
+            "2": "Easy",
+            "3": "Moderate",
+            "4": "Challenging",
+            "5": "Hard"
+        }
+    },
+    "landing-page": {
+        "best-odds": "อัตราต่อรองที่ดีที่สุดในอุตสาหกรรม",
+        "try-now": "ลองเลย",
+        "powered-by": "Powered by",
+        "no-kyc": "ตลาดกีฬาที่ไม่มี KYC",
+        "launch-dapp": "Launch dapp",
+        "leagues": "ลีก",
+        "info-text-title-1": "ไม่จำเป็นต้อง sign-up",
+        "info-text-title-2": "ทุกอย่างอยู่บน on-chain",
+        "info-text-title-3": "ตลาดแบบ Non-custodial",
+        "info-text-title-4": "ให้บริการข้อมูลโดย Chainlink",
+        "info-text-title-5": "การทำธุรกรรมที่รวดเร็วและค่าธรรมเนียมที่ถูก",
+        "info-text-1": "ไม่จำเป็นต้องสร้างรหัสผู้ใช้และเราไม่เก็บข้อมูลส่วนตัวใดๆ",
+        "info-text-2": "เมื่อเอกลักษณ์แบบรวมศูนย์นั้นล้มเหลว ความโปร่งใสจึงเป็นสิ่งสำคัญ Smart Contracts ทั้งหมดของเราเป็นแบบสาธารณะ",
+        "info-text-3": "ไม่มีใครถือหลักประกันของคุณ คุณเป็นเจ้าของกุญแจและโทเค็นของคุณ",
+        "info-text-4": "ผู้นำในอุตสาหกรรมที่สามารถให้อัตราต่อรองที่ปราศจากการควบคุมและให้ผลการแข่งขันกีฬาในรูปแบบการกระจายอำนาจ",
+        "info-text-5": "ทุกการโต้ตอบกับ Overtime Sport AMM จะถูกกระทำบน Optimism Network ผู้นำตลาด scalability",
+        "browse-markets": "ดูตลาดกีฬา",
+        "web3-positioning": "การทายผลกีฬา Web3 ",
+        "learn-more": "อยากเรียนรู้เพิ่มเติมหรือไม่?",
+        "documentation": "ดูเอกสารของเรา",
+        "jump-in": "พร้อมที่จะเข้ามาหรือยัง?",
+        "open-overtime": "เปิด Overtime markets",
+        "join-discord": "ถ้าหากต้องการความช่วยเหลือ โปรดเข้าร่วม Discord ของเรา",
+        "read-now": "อ่าน"
+    },
+    "profile": {
+        "transaction-history": "ประวัติการทำรายการ",
+        "open-claimable": "เปิด/อ้างสิทธิ์ได้",
+        "categories": {
+            "open": "เปิด",
+            "claimable": "อ้างสิทธิ์ได้",
+            "single": "เกมส์เดี่ยว",
+            "parlay": "เกมส์พาร์เลย์"
+        },
+        "card": {
+            "canceled": "ยกเลิก",
+            "to-win": "ที่จะชนะ",
+            "claim": "เรียกร้อง",
+            "ticket-paid": "จ่ายตั๋วแล้ว",
+            "ticket-id": "รหัสตั๋ว",
+            "total-quote": "ใบเสนอราคาทั้งหมด",
+            "to-claim": "ที่จะเรียกร้อง",
+            "number-of-games": "จำนวนเกม",
+            "result": "ผลลัพธ์",
+            "position-size": "ขนาดตำแหน่ง",
+            "starts": "เริ่ม",
+            "claim-all": "อ้างสิทธิ์ทั้งหมด",
+            "claim-progress": "กำลังอ้างสิทธิ์...",
+            "payout-in": "จ่ายเงินเข้า.",
+            "approve-swap-tooltip": "หากต้องการรับการจ่ายเงินเป็น {{currencyKey}} คุณต้องอนุมัติการแลกเปลี่ยนจาก {{defaultCurrency}} เป็น {{currencyKey}}"
+        },
+        "messages": {
+            "no-open": "คุณไม่มีตำแหน่งที่เปิดอยู่",
+            "no-claimable": "คุณไม่มีตำแหน่งที่อ้างสิทธิ์ได้",
+            "no-transactions": "คุณไม่มีการซื้อขายใด ๆ",
+            "ticket-subtitle": "เพิ่มตำแหน่ง เลือกตลาด และทำการเลือกของคุณ",
+            "canceled-tooltip": "ตลาดที่ยกเลิกสามารถอ้างสิทธิ์ได้ 2 ชั่วโมงหลังจากตลาดได้รับการแก้ไข",
+            "transaction-pending": "การทำธุรกรรมที่รอดำเนินการ",
+            "voucher-claim-success": "แลกรับบัตรกำนัลสำเร็จแล้ว",
+            "no-vouchers": "คุณไม่มีบัตรกำนัลที่จะเรียกร้อง"
+        },
+        "table": {
+            "games": "เกม",
+            "position": "ตำแหน่ง",
+            "amount": "จำนวน",
+            "paid": "จ่าย",
+            "time": "เวลา",
+            "id": "ไอดี",
+            "status": "สถานะ",
+            "total-quote": "ใบเสนอราคาทั้งหมด",
+            "total-amount": "จำนวนเงินทั้งหมด"
+        },
+        "winnings-are-forfeit": "*การชนะที่ไม่ได้อ้างสิทธิ์ภายใน {{amount}} วันของตลาดที่ได้รับการแก้ไขจะถือว่าสละสิทธิ์",
+        "search-field": "ค้นหากระเป๋าสตางค์",
+        "stats": {
+            "total-volume": "Total volume",
+            "trades": "Trades",
+            "highest-win": "Highest win",
+            "lifetime-wins": "Lifetime wins",
+            "in-vaults": "In vaults"
+        },
+        "vaults": "ห้องนิรภัย/LP",
+        "lp-title": "สระว่ายน้ำสภาพคล่อง",
+        "in-vault": "ในห้องนิรภัย",
+        "go-to-vault": "ไปที่ห้องนิรภัย",
+        "go-to-lp": "ไปที่หจก",
+        "in-lp": "มีสภาพคล่อง",
+        "claiming-voucher": "การอ้างสิทธิ์...",
+        "voucher": "บัตรกำนัล",
+        "left-to-claim": "เหลือแต่เคลม",
+        "gift-voucher": "บัตรกำนัล",
+        "voucher-info": "แต่เพื่อที่เจ้าจะได้เห็นว่าความผิดพลาดแต่กำเนิดของบรรดาผู้ที่กล่าวโทษความเพลิดเพลินและสรรเสริญความเจ็บปวดนั้นมาจากไหน ฉันจะเปิดเรื่องราวทั้งหมดและอธิบายถึงสิ่งที่ผู้ค้นพบความจริงผู้นั้นกล่าว และตามเดิม สถาปนิกของ ชีวิตที่มีความสุข",
+        "claim-voucher": "เรียกร้องบัตรกำนัล",
+        "voucher-title": "รับบัตรกำนัลการทำงานล่วงเวลา",
+        "go-to-parlay-lp": "ไปที่หจก.พาร์เลย์",
+        "go-to-single-lp": "ไปที่ Single หจก",
+        "parlay-lp-title": "พูลสภาพคล่องของ Parlay",
+        "single-lp-title": "พูลสภาพคล่องเดียว",
+        "wrapper-nav": {
+            "my-portfolio": "ผลงานของฉัน",
+            "my-tickets": "ตั๋วของฉัน"
+        }
+    },
+    "referral": {
+        "generate-link": "สร้างลิงค์",
+        "copy-link": "คัดลอกลิงค์",
+        "trades": "เทรด",
+        "total-volume": "วอลลุ่มทั้งหมด",
+        "total-earned": "ที่ได้รับทั้งหมด",
+        "total-trading-fees": "ค่าธรรมเนียมการเทรดทั้งหมด",
+        "affiliate-leaderboard-table": {
+            "address": "ที่อยู่",
+            "number-of-trades": "จำนวนการเทรด",
+            "total-volume": "วอลลุ่มทั้งหมด",
+            "first-transaction": "ธุรกรรมครั้งแรก",
+            "total-earned": "ที่ได้รับทั้งหมด",
+            "amount": "ปริมาณ",
+            "volume": "วอลลุ่ม",
+            "type": "Type",
+            "timestamp": "วัน/เวลา"
+        },
+        "no-result": "ไม่มีผลลัพธ์สำหรับตารางนี้",
+        "earned": "ได้รับ",
+        "header": "สร้าง Referral links",
+        "paragraph": "<bold>Overtime Referrals Program เป็นการสร้างแรงจูงใจบน on-chain เพื่อเพิ่มยอดผู้ใช้งาน และ เป็นอุปการ์สำหรับการสอนการใช้งาน</bold>โปรแกรมนี้อนุญาตให้ใครก็ตามสามารถ<bold>สร้าง Referral Link</bold> ได้และแชร์ให้กับผู้ใช้งานรายอื่นที่อยากให้มาลองใช้งาน Overtime Market<br /><br /> คุณจะได้รับ<bold>0.5% จากยอดวอลลุ่ม sUSD จากผู้ใช้ลิงค์อ้างอิงของคุณ!</bold> ไม่จำเป็นต้องกดรับ sUSD มันจะถูกส่งเข้ากระเป๋าเงินของคุณโดยอัตโนมัติ",
+        "nav-items": {
+            "all-transactions": "ธุรกรรมทั้งหมด",
+            "see-result-by-trader": "ดูผลลัพธ์โดยเทรดเดอร์",
+            "affiliate-leaderboard": "กระดานผู้นำ"
+        }
+    },
+    "vaults": {
+        "title": "Sport Vaults",
+        "strategy-label": "กลยุทธ์ของ Vault",
+        "risks-label": "ความเสี่ยงของ Vault"
+    },
+    "vault": {
+        "discount-vault": {
+            "title": "Discount Vault",
+            "description": "<p>ซื้อโพสิชั่นที่มี odds มากกว่า {{odds}} และมีส่วนลดมากกว่า {{discount}}.</p>",
+            "risks": "<p>Vault มี utilization rate อยู่ที่ {{utilizationRate}} เพื่อเป็นการให้แน่ใจว่าไม่เกิน {{utilizationRate}} ของยอดฝากจะอยู่ในความเสี่ยง ยิ่งไปกว่านั้นจากยอดทั้งหมดไม่เกิน {{utilizationRate}} จะมียอดไม่เกิน {{allocationLimitsPerMarketPerRound}} ที่สามารถนำไปใช้ได้ต่อการแข่งขันหนึ่งเกม จากที่กล่าวมาจึงเป็นการกระจายความเสี่ยงไปยังหลายตลาดที่มีอัตราต่อรองมากกว่า {{odds}}</p>"
+        },
+        "degen-discount-vault": {
+            "title": "Degen Discount Vault",
+            "description": "<p>ซื้อโพสิชั่นที่ odds ใดๆ ที่มีส่วนลดมากกว่า {{discount}}</p>",
+            "risks": "<p>Vault มี utilization rate อยู่ที่ {{utilizationRate}} เพื่อเป็นการให้แน่ใจว่าไม่เกิน {{utilizationRate}} ของยอดฝากจะอยู่ในความเสี่ยง ยิ่งไปกว่านั้นจากยอด {{utilizationRate}} จะมีเพียงมากที่สุด {{allocationLimitsPerMarketPerRound}} เท่านั้นที่สามารถใช้กับเกมการแข่งขั้นหนึ่งเกม</p>"
+        },
+        "safu-discount-vault": {
+            "title": "Safu Discount Vault",
+            "description": "<p>ซื้อโพสิชั่นที่มี odds มากกว่า {{odds}} และ มีส่วนลดใดๆ </p>",
+            "risks": "<p>Vault มี utilization rate อยู่ที่ {{utilizationRate}} เพื่อเป็นการให้แน่ใจว่าไม่เกิน {{utilizationRate}} ของยอดฝากจะอยู่ในความเสี่ยง ยิ่งไปกว่านั้นจากยอดทั้งหมดไม่เกิน {{utilizationRate}} จะมียอดไม่เกิน {{allocationLimitsPerMarketPerRound}} ที่สามารถนำไปใช้ได้ต่อการแข่งขันหนึ่งเกม จากที่กล่าวมาจึงเป็นการกระจายความเสี่ยงไปยังหลายตลาดที่มีอัตราต่อรองมากกว่า {{odds}}</p>"
+        },
+        "upsettoor-vault": {
+            "title": "Upsettoor Vault",
+            "description": "<p>ซื้อตำแหน่งที่มีอัตราต่อรองน้อยกว่า {{odds}} และมีส่วนลดมากกว่า {{discount}}.</p>",
+            "risks": "<p>Vault มี utilization rate อยู่ที่ {{utilizationRate}} เพื่อเป็นการให้แน่ใจว่าไม่เกิน {{utilizationRate}} ของยอดฝากจะอยู่ในความเสี่ยง ยิ่งไปกว่านั้นจากยอดทั้งหมดไม่เกิน {{utilizationRate}} จะมียอดไม่เกิน {{allocationLimitsPerMarketPerRound}} ที่สามารถนำไปใช้ได้ต่อการแข่งขันหนึ่งเกม จากที่กล่าวมาจึงเป็นการกระจายความเสี่ยงไปยังหลายตลาดที่มีอัตราต่อรองมากกว่า {{odds}}</p>"
+        },
+        "variables": "<p>Variables:</p><ul><li>Utilization rate: {{utilizationRate}}</li><li>Price lower limit: {{priceLowerLimit}}</li><li>Price upper limit: {{priceUpperLimit}}</li><li>Max Skew impact: {{skewImpactLimit}}</li><li>Max allocation on a single market: {{allocationLimitsPerMarketPerRound}}</li><li>Max total deposit: {{maxAllowedDeposit}}</li><li>Max users in the vault: {{maxAllowedUsers}}</li><li>Minimum amount on a single trade: {{minTradeAmount}}</li><li>Minimum deposit: {{minDepositAmount}}</li><li>Round duration: {{roundLength}} days</li></ul>",
+        "back-to-vaults": "กลับไปที่ Vaults",
+        "vault-not-started-message": "Vault ยังไม่เริ่ม",
+        "vault-paused-message": "Vault ถูกหยุดทำงาน",
+        "round-allocation-label": "ยอดการฝากทั้งหมด",
+        "spent-trading-label": "ยอดที่ถูกนำไปเทรด",
+        "available-trading-label": "ยอดฝากที่สามารถนำไปเทรดได้",
+        "round-end-label": "รอบนี้จะจบใน",
+        "your-round-allocation-label": "เงินฝากของคุณในรอบนี้: <bold>{{amount}}</bold>",
+        "your-next-round-allocation-label": "เงินฝากของคุณในรอบถัดไป: <bold>{{amount}}</bold>",
+        "estimated-amount-tooltip": "จำนวนนี้เป็นเพียงการประมาณ จำนวนที่แท้จริงจะถูกคำนวณหลังจากจบรอบโดยจะนำ PnL มาคิด",
+        "next-round-start-label": "รอบต่อไปจะเริ่มใน: <counter />",
+        "users-in-vault-label": "จำนวนผู้ใช้งานใน Vault : {{number}} / {{max}}",
+        "vault-filled-label": "จำนวนเงินฝากใน Vault: {{amount}} / {{max}}",
+        "deposit-message": "ฝากเงินเข้าสู่ Vault เพื่อเข้าร่วมรอบต่อไป",
+        "deposit-amount-label": "จำนวนเงินฝาก",
+        "deposit-amount-placeholder": "ระบุจำนวน",
+        "available-to-withdraw-label": "จำนวนเงินฝากที่สามารถถอนได้: <bold>{{amount}}</bold>",
+        "nothing-to-withdraw-label": "ไม่มีสิ่งที่จะสามารถถอนได้",
+        "withdrawal-message": "คุณสามารถขอถอนเงินและเงินของคุณจะถูกส่งถึงคุณโดยอัตโนมัติเมื่อสิ้นสุดรอบเมื่อรอบปิด",
+        "withdraw-round-end-label": "รอบนี้จะสิ้นสุดใน: <counter />",
+        "withdrawal-requested-message": "คุณขอถอนเงินเป็นจำนวน <bold>{{amount}}</bold><tooltip />. เงินของคุณจะถูกส่งถึงคุณโดยอัตโนมัติเมื่อสิ้นสุดรอบเมื่อปิดรอบ",
+        "withdrawal-request-label": "ขอถอน: <bold>{{amount}}</bold>",
+        "first-deposit-withdrawal-message": "คุณฝากเงินในรอบถัดไป และคุณสามารถถอนเงินเหล่านี้ได้เมื่อสิ้นสุดรอบถัดไป",
+        "round-ended-label": "จบรอบ",
+        "deposit-withdrawal-warning": "มีการร้องขอการถอน คุณไม่สามารถฝากได้",
+        "deposit-max-amount-of-users-warning": "ถึงจำนวนผู้ใช้สูงสุดของ Vault แล้ว คุณไม่สามารถฝากเงินได้",
+        "deposit-vault-cap-reached-warning": "ถึงจำนวนฝากสูงสุดของ Vault แล้ว คุณไม่สามารถฝากเงินได้",
+        "deposit-vault-cap-error": "จำนวนเงินฝากเกินขีดจำกัดของ Vault",
+        "deposit-min-amount-error": "จำนวนเงินขั้นต่ำสำหรับการฝากคือ {{amount}}",
+        "withdrawal-deposit-warning": "คุณไม่สามารถถอนได้เนื่องจากคุณฝากไว้แล้วสำหรับรอบถัดไป",
+        "tabs": {
+            "deposit": "ฝาก",
+            "claim": "รับ",
+            "withdraw": "ถอน"
+        },
+        "button": {
+            "deposit-label": "ฝาก",
+            "deposit-progress-label": "กำลังทำการฝาก...",
+            "deposit-confirmation-message": "การฝากสำเร็จ",
+            "request-withdrawal-label": "ขอถอนเงิน",
+            "request-withdrawal-progress-label": "กำลังทำคำร้อง...",
+            "request-withdrawal-confirmation-message": "ส่งคำขอถอนสำเร็จแล้ว",
+            "withdraw-label": "ถอน",
+            "withdraw-progress-label": "กำลังดำเนินการถอนเงิน…",
+            "withdraw-confirmation-message": "ถอนเงินสำเร็จ",
+            "close-round-label": "ปิดรอบ",
+            "close-round-progress-label": "กำลังดำเนินการปิดรอบ…",
+            "close-round-confirmation-message": "ปิดรอบสำเร็จ"
+        },
+        "trades-history": {
+            "title": "ประวัติการเทรดของ Vault",
+            "no-trades": "ไม่มีการเทรดที่เกี่ยวข้องกับ Vault นี้ในรอบที่เลือก",
+            "round-label": "รอบ"
+        },
+        "pnl": {
+            "title": "PnL ต่อรอบ",
+            "no-data": "ไม่มีข้อมูล PnL สำหรับรอบก่อนหน้า",
+            "lifetime-pnl": "Lifetime PnL",
+            "ongoing-pnl": "Ongoing PnL"
+        },
+        "user-transactions": {
+            "type": {
+                "deposit": "เงินฝาก",
+                "claim": "การเรียกร้องการถอน",
+                "withdrawalRequest": "คำขอถอนเงิน"
+            },
+            "title": "การทำธุรกรรมของผู้ใช้",
+            "no-transactions": "ไม่มีธุรกรรมของผู้ใช้ที่เกี่ยวข้องกับห้องนิรภัยนี้ในรอบที่เลือก",
+            "name": "ชื่อ"
+        },
+        "parlay-discount-vault": {
+            "description": "<p>ซื้อตั๋วพาร์เลย์โดยแต่ละตำแหน่งในตั๋วมีส่วนลดอย่างน้อย {{discount}}</p>",
+            "risks": "<p>ห้องนิรภัยมีอัตราการใช้งาน {{utilizationRate}} ซึ่งรับรองว่าไม่เกิน {{utilizationRate}} ของเงินฝากในแต่ละรอบที่มีความเสี่ยง นอกจากนี้ จาก {{utilizationRate}} เหล่านั้น คุณสามารถใช้จ่ายได้สูงสุด {{allocationLimitsPerMarketPerRound}} กับตั๋วพาร์เลย์ใบเดียวต่อรอบ ดังนั้นจึงเป็นการกระจายความเสี่ยงไปสู่ตั๋วพาร์เลย์หลายใบที่มีส่วนลดมากกว่า {{odds}}</p>",
+            "title": "ห้องเก็บส่วนลด Parlay"
+        },
+        "gamified-staking-message": "<p>เงินฝากทั้งหมดที่เข้าสู่รอบจะนับรวมกับปริมาณการเดิมพันแบบเกม</p>",
+        "LP": {
+            "title": "หจก",
+            "parlay-lp": "หจก.พาร์เลย์",
+            "single-lp": "หจก.เดียว"
+        },
+        "variables-parlay": "<p>ตัวแปร:</p><ul><li> อัตราการใช้: {{utilizationRate}}</li><li> ขีดจำกัดล่างของราคา: {{priceLowerLimit}}</li><li> ขีดจำกัดสูงสุดของราคา: {{priceUpperLimit}}</li><li> ผลกระทบเอียงสูงสุด: {{skewImpactLimit}}</li><li> การจัดสรรสูงสุดในพาร์เลย์เดียว: {{allocationLimitsPerMarketPerRound}}</li><li> เงินฝากทั้งหมดสูงสุด: {{maxAllowedDeposit}}</li><li> ผู้ใช้สูงสุดในห้องนิรภัย: {{maxAllowedUsers}}</li><li> จำนวนเงินขั้นต่ำในการซื้อขายครั้งเดียว: {{minTradeAmount}}</li><li> เงินฝากขั้นต่ำ: {{minDepositAmount}}</li><li> ระยะเวลาของรอบ: {{roundLength}} วัน</li></ul>",
+        "single-lp": {
+            "title": "หจก.เดียว"
+        },
+        "parlay-lp": {
+            "title": "หจก.พาร์เลย์"
+        },
+        "deprecated-info": "เลิกใช้แล้ว โปรดถอนเงินของคุณ!"
+    },
+    "parlay-leaderboard": {
+        "title": "Parlay Incentives Leaderboard",
+        "description": "A total of <bold>{{amount}}</bold> will be distributed to the best parlays with minimum 3 games on a <bold>bi-weekly basis</bold>. The tickets will be ranked based on a total quote, followed by the number of positions on the parlays.",
+        "distribution-note": "Rewards will be distributed to the <bold>TOP 10 parlays every 2 weeks</bold>!",
+        "no-parlays": "No winning parlays registered in the period yet.",
+        "warning": "*Overtime team holds the right to disqualify wallets we suspect of gaming the system.",
+        "info": "If multiple parlays have the same total quote and the number of positions the following will be used as tie-breakers in respective order:",
+        "info1": "- The amount paid",
+        "info2": "- Actual total quote (gotten by multiplying positions individually)",
+        "info3": "*1 winning parlay eligible per wallet",
+        "sidebar": {
+            "title-parlay": "Parlay",
+            "title-leaderboard": "Leaderboard",
+            "quote": "Quote",
+            "paid": "Paid",
+            "won": "Won",
+            "total-quote": "Total Quote",
+            "total-amount": "Total Amount",
+            "reward": "รางวัล",
+            "wallet": "กระเป๋าสตางค์",
+            "positions": "ตำแหน่ง"
+        },
+        "periods": {
+            "february": "February",
+            "period-end-label": "The period ends in",
+            "period-ended-label": "Period ended",
+            "bi-weekly-period": "Bi-weekly period"
+        },
+        "warning2": "ผู้ใช้ที่ได้ครอบคลุม 50% หรือมากกว่าของการผสมผสานที่เป็นไปได้ของตั๋วที่ชนะจะถูกตัดสิทธิ์"
+    },
+    "wizard": {
+        "title": "Get Started!",
+        "steps": {
+            "title": {
+                "connect-wallet": "Connect Wallet",
+                "fund": "Fund with ETH",
+                "exchange": "Get Crypto USD",
+                "trade": "Overtime Markets"
+            },
+            "description": {
+                "connect-wallet": "If you don't have Optimism connected Wallet installed, you will be routed to install a wallet of choice before being able to connect it.",
+                "fund": "Before you can use Overtime, first you need to get ETH on your Optimism connected wallet. After clicking on the Fund button, choose one of the available options to continue.",
+                "exchange": "Overtime uses popular stablecoins (Crypto USD) to execute trades. By clicking on Exchange to sUSD button, seamlessly swap ETH to a desired amount of stablecoins.",
+                "trade": "Now you are funded and ready to use Overtime Markets. Good luck!"
+            },
+            "action": {
+                "connect-wallet": "Connect Wallet",
+                "connected": "Connected",
+                "fund": "Fund with ETH",
+                "exchange": "Exchange to USD",
+                "trade": "Trade on Overtime"
+            }
+        },
+        "fund-modal": {
+            "title": "Fund, Bridge & Send",
+            "buy": "Fund with card",
+            "buy-banxa": "Fund with Banxa",
+            "buy-mt-pelerin": "Fund with Mt Pelerin",
+            "bridge": "Bridge to optimism  ",
+            "exchange": "Send from exchange",
+            "copy-address": "Copy address",
+            "address": "Your address QR code",
+            "copied": "คัดลอก!"
+        }
+    },
+    "liquidity-pool": {
+        "title": "วางสภาพคล่อง",
+        "description": "<h1>Description</h1><p>Liquidity providing involves users depositing stablecoin collateral into a smart contract-based liquidity pool for Overtime trading. The collateral deposited is used to facilitate trading on Overtime's AMM.</p><p>To be able to provide liquidity you'll need to be staking THALES. There's no maximum cap per wallet and you may deposit a maximum of 1 {{currency}} per {{thalesStakedAmount}} THALES staked until the liquidity pool is filled.</p><p>At the end of each round, the proportional share of that round's PnL will be added to your deposited balance.</p><p>If you wish to withdraw, you can signal that at any time during the ongoing round, and at the end of the round the amount you signaled for withdrawal (inclusive of that round's PnL) is sent to you.  The minimum amount to be withdrawn is set to 10%</p><p>If you decide to unstake THALES while providing liquidity, please be aware that you'll need to signal a withdrawal from the liquidity pool first.</p><p>Providing liquidity exposes you to various risks including potential losses due to users winning in trading as well as smart contract security risks. Please make sure you understand these risks before depositing.</p><p><tipLink>TIP-99</tipLink> has more details on the technical implementation of Overtime liquidity providing.</p>",
+        "variables": "<h1>ข้อมูลเชิงเทคนิค</h1><ul><li>จำนวนเงินสูงสุด: {{maxAllowedDeposit}}</li><li>จำนวนผู้ใช้สูงสุด: {{maxAllowedUsers}}</li><li>เงินวางขั้นต่ำ: {{minDepositAmount}}</li><li>ระยะเวลา/รอบ: {{roundLength}} วัน</li></ul>",
+        "liquidity-pool-not-started-message": "สระสภาพคล่องยังไม่เริ่มใช้งาน",
+        "liquidity-pool-paused-message": "สระสภาพคล่องหยุดชั่วคราว",
+        "round-end-label": "รอบปัจจุบันจะสิ้นสุดในอีก",
+        "round-ended-label": "สิ้นสุดรอบ",
+        "total-info-label": "จำนวน LP ทั้งหมด",
+        "users-in-liquidity-pool-label": "จำนวนผู้วางสภาพคล่อง: {{number}} / {{max}}",
+        "your-share-label": "สัดส่วน LP ของคุณ: {{percentage}}",
+        "your-info-label": "รายละเอียด LP ของคุณ",
+        "current-balance-label": "จำนวนเงินรอบนี้",
+        "next-round-balance-label": "จำนวนเงินรอบถัดไป",
+        "max-allowance-label": "โควต้าวางสภาพคล่องสูงสุด",
+        "your-thales-staked-label": "จำนวน THALES ที่ stake ไว้",
+        "allowance-multiplier-label": "Allowance multiplier",
+        "full-withdrawal-request-label": "Withdrawal request: {{amount}}<tooltip />",
+        "partial-withdrawal-request-label": "Withdrawal request: {{percentage}} of the balance ({{amount}}<tooltip />)",
+        "estimated-amount-tooltip": "จำนวนนี้เป็นเพียงการประมาณการเท่านั้น จำนวนที่แน่นอนจะถูกคำนวณตาม PnL ที่เกิดขึ้นหลังจากรอบนี้สิ้นสุดลง",
+        "deposit-amount-placeholder": "ใส่จำนวน",
+        "available-to-withdraw-label": "สามารถถอนได้: <bold>{{amount}}</bold>",
+        "nothing-to-withdraw-label": "ไม่มีเงินให้ถอน",
+        "withdrawal-message": "คุณสามารถสั่งถอนเงินได้ และเงินของคุณจะถูกโอนเข้าวอลเลทของคุณโดยอัตโนมัติหลังจากรอบนี้สิ้นสุด",
+        "full-withdrawal-requested-message": "You requested to withdraw a full balance of <bold>{{amount}}</bold><tooltip />.",
+        "partial-withdrawal-requested-message": "You requested to withdraw {{percentage}} of the balance (<bold>{{amount}}</bold><tooltip />).",
+        "withdrawal-requested-message": "เงินของคุณจะโอนเข้าวอลเลททันทีเพื่อรอบนี้สิ้นสุดลง",
+        "first-deposit-withdrawal-message": "คุณได้วางสภาพคล่องสำหรับรอบถัดไปแล้ว คุณจะสามารถถอนเงินได้ภายหลังสิ้นสุดรอบถัดไป",
+        "deposit-withdrawal-warning": "อยู่ระหว่างรอถอนเงิน คุณไม่สามารถวางสภาพคล่องได้",
+        "deposit-max-amount-of-users-warning": "จำนวนผู้วางสภาพคล่องครบตามโควต้าที่กำหนดแล้ว คุณไม่สามารถวางสภาพคล่องได้อีก",
+        "deposit-liquidity-pool-cap-reached-warning": "โควต้าพูลสภาพคล่องเต็มแล้ว คุณไม่สามารถวางสภาพคล่องได้",
+        "deposit-liquidity-pool-cap-error": "จำนวนเงินวางสภาพคล่องเกินโควต้าของพูลสภาพคล่อง",
+        "deposit-staked-thales-error": "จำนวนเงินวางสภาพคล่องเกินโควต้า คุณต้อง stake THALES เพิ่มจึงจะวางสภาพคล่องได้",
+        "deposit-min-amount-error": "จำนวนเงินวางสภาพคล่องขั้นต่ำ คือ {{amount}}",
+        "withdrawal-deposit-warning": "ไม่สามารถถอนเงินได้ เนื่องจากคุณได้วางสภาพคล่องสำหรับรอบถัดไปแล้ว",
+        "full-withdrawal-label": "Full withdrawal",
+        "partial-withdrawal-label": "Partial withdrawal",
+        "percentage-placeholder": "Enter percentage",
+        "withdrawal-amount-label": "Withdrawal amount: <bold>{{amount}}</bold>",
+        "tabs": {
+            "deposit": "ฝาก",
+            "withdraw": "ถอน"
+        },
+        "button": {
+            "deposit-label": "Deposit",
+            "deposit-progress-label": "Deposit in progress...",
+            "deposit-confirmation-message": "Deposit successfully placed",
+            "request-withdrawal-label": "Request withdrawal",
+            "request-withdrawal-progress-label": "Request in progress...",
+            "request-withdrawal-confirmation-message": "Withdrawal request successfully sent",
+            "withdraw-label": "Withdraw",
+            "withdraw-progress-label": "Withdrawal in progress...",
+            "withdraw-confirmation-message": "Funds successfully withdrawn",
+            "close-round-label": "Close round",
+            "close-round-progress-label": "Closing round in progress...",
+            "close-round-confirmation-message": "Round successfully closed",
+            "get-thales-label": "Get THALES",
+            "stake-thales-label": "Stake THALES"
+        },
+        "pnl": {
+            "pnl-per-round": {
+                "title": "PnL per round"
+            },
+            "cumulative-pnl": {
+                "title": "PnL over time"
+            },
+            "no-data": "No PnL data for previous rounds.",
+            "lifetime-pnl": "Lifetime PnL",
+            "ongoing-pnl": "Ongoing PnL"
+        },
+        "user-transactions": {
+            "title": "User transactions",
+            "your-transactions-title": "Your transactions",
+            "no-transactions": "No user transactions associated with this liquidity pool in the selected round.",
+            "round-label": "Round",
+            "type": {
+                "deposit": "Deposit",
+                "withdrawalRequest": "Withdrawal Request",
+                "claim": "Withdrawal Claim"
+            }
+        },
+        "return": {
+            "title": "กลับ",
+            "apy": "APY ที่คาดการณ์ตาม APR",
+            "arr": "ผลตอบแทนเฉลี่ย (ARR)",
+            "apr": "APR ที่คาดการณ์ตาม ARR"
+        },
+        "parlay-lp": "หจก.พาร์เลย์",
+        "single-lp": "หจก.เดียว",
+        "description-parlay": "<h1>คำอธิบาย</h1><p> การจัดหาสภาพคล่องนั้นเกี่ยวข้องกับผู้ใช้ที่ฝากหลักประกัน Stablecoin ไว้ในกลุ่มสภาพคล่องตามสัญญาอัจฉริยะสำหรับการซื้อขายล่วงเวลา หลักประกันที่ฝากไว้ใช้เพื่ออำนวยความสะดวกในการซื้อขาย Parlay AMM ของค่าล่วงเวลา</p><p> เพื่อให้สามารถจัดหาสภาพคล่องได้ คุณจะต้องเดิมพันกับ THALES ไม่มีขีดจำกัดสูงสุดต่อกระเป๋าเงินหนึ่งใบ และคุณสามารถฝากได้สูงสุด 1 {{currency}} ต่อ {{thalesStakedAmount}} THALES ที่เดิมพันไปจนกว่าสภาพคล่องจะเต็ม</p><p> เมื่อสิ้นสุดแต่ละรอบ ส่วนแบ่งตามสัดส่วนของ PnL ของรอบนั้นจะถูกเพิ่มไปยังยอดเงินฝากของคุณ</p><p> หากคุณต้องการถอน คุณสามารถส่งสัญญาณได้ตลอดเวลาในระหว่างรอบที่กำลังดำเนินอยู่ และเมื่อสิ้นสุดรอบ จำนวนเงินที่คุณส่งสัญญาณให้ถอน (รวมถึง PnL ของรอบนั้น) จะถูกส่งถึงคุณ จำนวนเงินขั้นต่ำที่จะถอนถูกกำหนดไว้ที่ 10%</p><p> หากคุณตัดสินใจที่จะถอนเงินเดิมพันของ THALES ในขณะที่ให้สภาพคล่อง โปรดทราบว่าคุณจะต้องส่งสัญญาณการถอนออกจากกลุ่มสภาพคล่องก่อน</p><p> การจัดหาสภาพคล่องทำให้คุณมีความเสี่ยงต่างๆ รวมถึงการสูญเสียที่อาจเกิดขึ้นจากการที่ผู้ใช้ชนะในการซื้อขาย เช่นเดียวกับความเสี่ยงด้านความปลอดภัยของสัญญาอัจฉริยะ โปรดแน่ใจว่าคุณเข้าใจความเสี่ยงเหล่านี้ก่อนฝากเงิน</p><p><tipLink> TIP-142</tipLink> มีรายละเอียดเพิ่มเติมเกี่ยวกับการดำเนินการทางเทคนิคของการจัดหาสภาพคล่องล่วงเวลา</p>"
+    },
+    "seo": {
+        "home": {
+            "title": "ตลาดต่อเวลา: Premier Web3 Sportsbook",
+            "description": "เข้าสู่โลกของสปอร์ตบุ๊คออนไลน์ web3 ชั้นนำ รักษาตำแหน่งในกีฬา 12+ รายการและลีก 40+ รายการ"
+        },
+        "markets": {
+            "description": "เข้าร่วมเว็บสปอร์ตบุ๊ค web3 ที่ดีที่สุดในตลาด รักษาตำแหน่งในลีกชั้นนำเช่น NFL, NBA, UCL, EPL และอีกมากมาย",
+            "title": "ตลาดต่อเวลา: ตลาดหนังสือกีฬา Web3 สำหรับลีกมากกว่า 40 ลีก"
+        },
+        "vaults": {
+            "title": "ห้องนิรภัยตลาดล่วงเวลา: การซื้อขายอัตโนมัติ",
+            "description": "ฝากสินทรัพย์ไว้ในห้องนิรภัยของตลาดล่วงเวลา และปล่อยให้กลไกการซื้อขายอัตโนมัติของเราปรับใช้กลยุทธ์ที่คุณเลือก"
+        },
+        "parlay-leaderboard": {
+            "title": "ตลาดต่อเวลา: รับรางวัลพาร์เลย์ทุกๆ 2 สัปดาห์",
+            "description": "ตลาดล่วงเวลาเป็นเว็บสปอร์ตบุ๊ค web3 ที่มีโบนัสรายปักษ์ที่ดีที่สุดในตลาดสำหรับผู้เล่นพาร์เลย์! ตรวจสอบกระดานผู้นำและหากคุณผ่านเข้ารอบที่นี่"
+        },
+        "referral": {
+            "title": "ตลาดล่วงเวลา: รับค่าธรรมเนียมการอ้างอิง",
+            "description": "แนะนำเพื่อนไปที่ตลาดล่วงเวลาและรับเปอร์เซ็นต์จากการซื้อขายแต่ละครั้งของบุคคลที่คุณแนะนำ จ่ายเป็นเงินประกัน USD ทันทีและเข้ากระเป๋าเงินของคุณโดยตรง"
+        },
+        "profile": {
+            "title": "ตลาดล่วงเวลา: โปรไฟล์ผู้ใช้",
+            "description": "รับเงินรางวัลของคุณ ตรวจสอบผลงานของคุณ และติดตามเงินฝากที่คุณได้ทำไว้กับห้องนิรภัยตลาดล่วงเวลา"
+        },
+        "liquidity-pool": {
+            "title": "ตลาดล่วงเวลา: มาเป็นบ้านด้วยแหล่งรวมสภาพคล่องของเรา",
+            "description": "เป็นบ้านตลาดล่วงเวลา! ฝากหลักประกัน Stablecoin ลงในแหล่งรวมสภาพคล่องเพื่อโอกาสรับเปอร์เซ็นต์ของ PnL ทุกสัปดาห์"
+        },
+        "single-market": {
+            "description": "{{dynamicTitle}}: เพลิดเพลินกับอัตราต่อรองเว็บ3 สปอร์ตบุ๊คที่ดีที่สุดในตลาด ไม่จำเป็นต้องลงทะเบียน ตลาดกีฬาที่มีการกระจายอำนาจอย่างเต็มที่",
+            "title": "ตลาดต่อเวลา Web3 Sportsbook: {{dynamicTitle}}"
+        }
+    },
+    "deposit": {
+        "tutorials": {
+            "coinbase": "ฝากเงินจาก Coinbase",
+            "binance": "ฝากเงินจากเว็บไซต์ Binance",
+            "title": "คู่มือการฝากเงิน",
+            "binance-mobile": "ฝากเงินจากแอพ Binance บนมือถือ"
+        },
+        "address-input-label": "ที่อยู่การฝากเงิน {{ token }} ส่วนตัวของคุณบน {{ network }}",
+        "select-token": "เลือกโทเค็น",
+        "deposit-crypto": "ฝาก crypto",
+        "or-buy-with": "หรือซื้อกับ",
+        "description": "หากต้องการซื้อขายล่วงเวลา คุณต้องเติมเงินในบัญชีของคุณ ทำตามขั้นตอนด้านล่างอย่างระมัดระวังและฝากสกุลเงินดิจิทัลที่เลือกไว้ในที่อยู่ที่สร้างขึ้น",
+        "go": "ไปกันเถอะ!",
+        "copied": "คัดลอกที่อยู่แล้ว!",
+        "ready-to-use": "บัญชีของคุณได้รับการเติมเงินแล้วและพร้อมที่จะเริ่มใช้งานตลาดล่วงเวลา! คุณสามารถทำการซื้อขายกับ ETH หรือคุณสามารถฝากโทเค็นอื่น ๆ ที่แสดงอยู่บนหน้าการฝากเงินได้",
+        "qr-modal-title": "ส่ง {{ token }} ({{ network }})",
+        "copying-address": "โปรดรอ",
+        "all-set": "คุณพร้อมแล้ว!",
+        "send": "ตรวจสอบให้แน่ใจว่าคุณกำลังฝาก {{ network }} {{ token }} ไปยังที่อยู่ด้านบน!",
+        "warning": "ยอดคงเหลือ ETH ของคุณต่ำ โปรดเติมเงิน ETH ของคุณเพื่อใช้ล่วงเวลาต่อไป"
+    },
+    "withdraw": {
+        "confirmation-modal": {
+            "network": "เครือข่าย",
+            "address": "ที่อยู่",
+            "withdrawal-transaction-warning": "ธุรกรรมการถอนไม่สามารถยกเลิกได้",
+            "correct-address": "ตรวจสอบให้แน่ใจว่าที่อยู่ถูกต้องและยอมรับ {{ token }} บน {{ network }}",
+            "title": "ร้องขอการถอนเงิน",
+            "withdrawal-fee": "ค่าธรรมเนียมการถอน",
+            "confirm": "ยืนยัน"
+        },
+        "toast-messages": {
+            "error": "เกิดข้อผิดพลาดบางอย่างขณะถอนเงิน",
+            "pending": "การทำธุรกรรมที่รอดำเนินการ...",
+            "success": "ถอนเงินสำเร็จ"
+        },
+        "validation": {
+            "wallet-address": "ที่อยู่กระเป๋าเงินไม่ถูกต้อง",
+            "amount": "จำนวนเงินไม่ถูกต้อง"
+        },
+        "paste-address": "วางที่อยู่กระเป๋าสตางค์ของคุณที่นี่",
+        "warning": "ตรวจสอบที่อยู่การถอนเงินอีกครั้ง และตรวจสอบให้แน่ใจว่ายอมรับ {{ token }} บน {{ network }}",
+        "address-input-label": "ที่อยู่การถอนเงิน {{ token }} ส่วนตัวของคุณบน {{ network }}",
+        "button-label-withdraw": "ถอน",
+        "heading-withdraw": "ถอนเงินดิจิตอล",
+        "description": "ใช้หน้านี้เพื่อถอนเงินออกจากบัญชีล่วงเวลาของคุณ ทำตามขั้นตอนด้านล่างอย่างระมัดระวังและอย่าลืมตรวจสอบทุกอย่างอีกครั้ง",
+        "amount": "จำนวน"
+    },
+    "my-portfolio": {
+        "top-up-eth": "เติมเงิน ETH",
+        "withdraw": "ถอน",
+        "deposit": "เงินฝาก",
+        "estimated-balance": "ยอดคงเหลือโดยประมาณ",
+        "top-up-eth-tooltip": "ยอดก๊าซ ETH ของคุณต่ำ\n\nโปรดฝาก ETH เพิ่ม หรือแลกเปลี่ยนโทเค็นที่ฝากอื่น ๆ เพื่อรับ ETH เพิ่มเติม"
+    },
+    "get-started": {
+        "steps": {
+            "title": {
+                "sign-up": "ลงชื่อ",
+                "logged-in": "เข้าสู่ระบบ",
+                "deposit": "ฝาก ETH",
+                "trade": "เริ่มใช้ตลาดล่วงเวลา!"
+            },
+            "description": {
+                "logged-in": "คุณได้สร้างบัญชี Overtime Smart ของคุณบนบล็อกเชนสำเร็จแล้วและเข้าสู่ระบบแล้ว",
+                "trade": "บัญชีของคุณได้รับเงินทุนแล้ว และคุณพร้อมที่จะวางตำแหน่งของคุณในช่วงต่อเวลาแล้ว!",
+                "sign-up": "คลิกที่ปุ่มลงทะเบียนและเลือกวิธีการเข้าสู่ระบบที่คุณต้องการ",
+                "deposit": "เพื่อเริ่มใช้งานล่วงเวลา คุณต้องเติมเงินในบัญชีใหม่ของคุณด้วย ETH คลิกที่ปุ่มฝากเงินทันที และเลือกระหว่างการฝากโดยตรงไปยังที่อยู่หรือซื้อด้วยบัตรเครดิต"
+            },
+            "action": {
+                "connect-wallet": "เชื่อมต่อกระเป๋าเงิน",
+                "deposit": "เงินฝาก",
+                "logged-in": "เข้าสู่ระบบ",
+                "connected": "เชื่อมต่อแล้ว",
+                "trade": "การค้าขายล่วงเวลา",
+                "sign-up": "ลงชื่อ"
+            }
+        },
+        "sign-out": "ออกจากระบบ",
+        "sign-up": "ลงชื่อ",
+        "log-in": "เข้าสู่ระบบ",
+        "get-started": "เริ่ม",
+        "title": "เริ่มต้นการทำงานล่วงเวลา"
+    },
+    "banner": {
+        "arb-distribution-message": "การกระจาย ARB ได้เริ่มต้นแล้ว รับโทเค็น ARB โดยใช้การต่อเวลา ชำระเงินรายละเอียดได้ที่นี่"
+    }
+}
